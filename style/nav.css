@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+.logo {
+  height: 62px;
+  width: 62px;
+  margin-top: 0px;
+  padding-left: 80px;
+}
+
+.menu {
+  list-style-type: none;
+  gap: 20px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.nav_right {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_give {
+  background-color: red;
+  color: white;
+  width: 135px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  margin-right: 80px;
+}
+
+/* common css*/
+.flex {
+  display: flex;
+}
